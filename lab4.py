@@ -7,7 +7,7 @@ def throw_rock(m,v0,theta):
     hm=v0**2*np.sin(theta)**2/(2*g)
     vh=v0*np.cos(theta) # in m/s
     Kh=1/2*m*vh*hm**2 # in J
-    print("for a rock with %5.3f kg mass "\
+    print("For a rock with %5.3f kg mass "\
           "thrown with %5.3f m/s at an angle of "\
           "%6.2f degrees:\nTime of flight is %10.1e s\n"\
           "The range in x-direction is %10.1e m\n"\
@@ -18,5 +18,6 @@ def throw_rock(m,v0,theta):
 myresult=throw_rock(1.5,0.3,35.20)
     
     
+
 
 
